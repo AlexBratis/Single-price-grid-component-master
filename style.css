@@ -1,0 +1,95 @@
+@import url('(https://fonts.google.com/specimen/Karla');
+	)
+
+  body{
+  	font-family: 'Karla', sans-serif;
+  	margin: 0;
+  	font-size: 16px;
+  	width: 100%;
+  	height: 100%;
+  	background-color: #84b0ab;
+}
+.container{
+	width: 50%;
+	height: 650px;
+	border-radius: 30px;
+	margin: 0 auto;
+	margin-top: 100px;
+	box-shadow: 0px 18px 25px rgba(0, 0, 0, 0.8);
+
+}
+h2{
+	color: hsl(179, 62%, 43%);
+	margin-left: 50px;
+}
+.subtitlu{
+	color:  hsl(71, 73%, 54%);
+	margin-left: 50px;
+}
+p{
+	margin-left: 50px;
+	color: #99a3a3;
+}
+.header{
+	border-radius: 30px 30px 0px 0px;
+	background-color: #e1eded;
+	height: 280px;
+	padding: 20px;
+	text-align: left;
+}
+.left{
+	background-color:hsl(179, 62%, 43%);
+	width: 50%;
+	height: 330px;
+	float: left;
+	border-radius: 0px 0px 0px 30px;
+}
+.right{
+	background-color: #19cfcf;
+	width: 50%;
+	height: 330px;
+	float: left;
+	border-radius: 0px 0px 30px 0px;
+}
+h3{
+	color: #fafafa;
+	margin-left: 65px;
+	margin-top: 40px;
+}
+
+.number{
+	color: #fafafa;
+	display: inline;
+	margin-left: 65px;
+}
+span{
+	color: #498c86;
+}
+.paragraf {
+	color: #ebf5f4;
+	margin-left: 65px;
+}
+
+.button {
+	margin-top: 50px;
+	background-color: hsl(71, 73%, 54%);
+	padding: 20px 100px;
+	text-align: center;
+	border-radius: 10px;
+	margin-left: 100px;
+	color: #fafafa;
+	font-size: 16px;
+	cursor: pointer;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	border: none;
+}
+.button:hover{
+	background-color: #227c80;
+	transition: 1s;
+}
+
+h5{
+	margin-left: 65px;
+	color: #fff;
+    line-height : 8px;
+}
